@@ -5,9 +5,5 @@ const produtos = [
     {id: 4, nome: "Teclado Mêcanico" },
 ];
 
-let id = produtos.filter((nome) => {
-    return nome = "fone";
-});
-
-console.log(produtos);
-console.log(id)
+const resultado = produtos.filter(u => u.nome.includes ("Fone"))
+console.log("A palavra designada","\n",resultado,"\n");

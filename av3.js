@@ -5,9 +5,5 @@ const usuarios = [
     {nome:"Bianca", estado:"Rj"},
 ];
 
-let nome = usuarios.filter((estado) => {
-    return estado = "Mg";
-});
-
-console.log(usuarios);
-console.log(nome)
+const resultado = usuarios.filter(u => u.estado === "Mg")
+console.log("Somente do estado de","\n",resultado,"\n");

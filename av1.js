@@ -6,9 +6,5 @@ const alunos = [
         
 ]
 
-let nome = alunos.filter((nota) => {
-    return nota >=6;
-});
-
-console.log(alunos);
-console.log(nome)
+const resultado = alunos.filter(u => u.nota >= 6)
+console.log("Vc passou","\n",resultado,"\n");
